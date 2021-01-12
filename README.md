@@ -1,1 +1,3 @@
-# SwipeCellKit Exemple# SwipeCellKit Exemple# SwipeCellKit Exemple
+# SwipeCellKit Exemple
+
+Exemplo de uso do framework SwipeCellKit
