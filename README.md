@@ -1,3 +1,3 @@
 # SwipeCellKit Exemple
 
-Exemplo de uso do framework SwipeCellKit
+Exemplo de uso do framework SwipeCellKit e Chameleon

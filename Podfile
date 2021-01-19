@@ -8,5 +8,6 @@ target 'SwipeCellKit-Exemple' do
   # Pods for SwipeCellKit-Exemple
 
 pod 'SwipeCellKit'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git'
 
 end
