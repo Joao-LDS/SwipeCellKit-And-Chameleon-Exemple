@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5D81F5F8B533FB825591BAFF /* Pods_SwipeCellKit_Exemple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A27F1816385ACF6228302 /* Pods_SwipeCellKit_Exemple.framework */; };
 		E836861525AE2C9E0087F4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861425AE2C9E0087F4DD /* AppDelegate.swift */; };
 		E836861725AE2C9E0087F4DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861625AE2C9E0087F4DD /* SceneDelegate.swift */; };
-		E836861925AE2C9E0087F4DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861825AE2C9E0087F4DD /* ViewController.swift */; };
+		E836861925AE2C9E0087F4DD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861825AE2C9E0087F4DD /* FirstViewController.swift */; };
 		E836861C25AE2C9E0087F4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836861A25AE2C9E0087F4DD /* Main.storyboard */; };
 		E836861E25AE2CA00087F4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E836861D25AE2CA00087F4DD /* Assets.xcassets */; };
 		E836862125AE2CA00087F4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836861F25AE2CA00087F4DD /* LaunchScreen.storyboard */; };
+		E8EB2EA425B6120400107EBF /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EB2EA325B6120400107EBF /* SwipeTableViewController.swift */; };
+		E8EB2EA625B6122D00107EBF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EB2EA525B6122D00107EBF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +25,13 @@
 		E836861125AE2C9E0087F4DD /* SwipeCellKit-Exemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwipeCellKit-Exemple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E836861425AE2C9E0087F4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E836861625AE2C9E0087F4DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E836861825AE2C9E0087F4DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E836861825AE2C9E0087F4DD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E836861B25AE2C9E0087F4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E836861D25AE2CA00087F4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E836862025AE2CA00087F4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E836862225AE2CA00087F4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EB2EA325B6120400107EBF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		E8EB2EA525B6122D00107EBF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,6 @@
 				243B70CFEB656F802715E147 /* Pods-SwipeCellKit-Exemple.debug.xcconfig */,
 				B8403941399B802100414BF9 /* Pods-SwipeCellKit-Exemple.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,7 +86,9 @@
 			children = (
 				E836861425AE2C9E0087F4DD /* AppDelegate.swift */,
 				E836861625AE2C9E0087F4DD /* SceneDelegate.swift */,
-				E836861825AE2C9E0087F4DD /* ViewController.swift */,
+				E836861825AE2C9E0087F4DD /* FirstViewController.swift */,
+				E8EB2EA525B6122D00107EBF /* SecondViewController.swift */,
+				E8EB2EA325B6120400107EBF /* SwipeTableViewController.swift */,
 				E836861A25AE2C9E0087F4DD /* Main.storyboard */,
 				E836861D25AE2CA00087F4DD /* Assets.xcassets */,
 				E836861F25AE2CA00087F4DD /* LaunchScreen.storyboard */,
@@ -207,8 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E836861925AE2C9E0087F4DD /* ViewController.swift in Sources */,
+				E8EB2EA425B6120400107EBF /* SwipeTableViewController.swift in Sources */,
+				E836861925AE2C9E0087F4DD /* FirstViewController.swift in Sources */,
 				E836861525AE2C9E0087F4DD /* AppDelegate.swift in Sources */,
+				E8EB2EA625B6122D00107EBF /* SecondViewController.swift in Sources */,
 				E836861725AE2C9E0087F4DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
