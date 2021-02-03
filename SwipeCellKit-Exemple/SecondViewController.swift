@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: SwipeTableViewController {
     
-    var data = [String]()
+    var lines: [Line] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,17 +18,19 @@ class SecondViewController: SwipeTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
+        return lines.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
-        cell.textLabel?.text = data[indexPath.row]
+        let line = lines[indexPath.row]
+        cell.textLabel?.text = line.name
+        cell.backgroundColor = UIColor(hexString: line.colour)
         return cell
     }
     
     override func updateModel(at index: IndexPath) {
-        data.remove(at: index.row)
+        lines.remove(at: index.row)
     }
 
 }

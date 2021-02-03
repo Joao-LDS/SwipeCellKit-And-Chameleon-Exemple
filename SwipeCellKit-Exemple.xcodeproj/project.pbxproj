@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D81F5F8B533FB825591BAFF /* Pods_SwipeCellKit_Exemple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A27F1816385ACF6228302 /* Pods_SwipeCellKit_Exemple.framework */; };
+		CF60539025C6FB6D005C341B /* RealmStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60538F25C6FB6D005C341B /* RealmStack.swift */; };
 		E836861525AE2C9E0087F4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861425AE2C9E0087F4DD /* AppDelegate.swift */; };
 		E836861725AE2C9E0087F4DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861625AE2C9E0087F4DD /* SceneDelegate.swift */; };
 		E836861925AE2C9E0087F4DD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836861825AE2C9E0087F4DD /* FirstViewController.swift */; };
@@ -22,6 +23,7 @@
 		234A27F1816385ACF6228302 /* Pods_SwipeCellKit_Exemple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCellKit_Exemple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243B70CFEB656F802715E147 /* Pods-SwipeCellKit-Exemple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCellKit-Exemple.debug.xcconfig"; path = "Target Support Files/Pods-SwipeCellKit-Exemple/Pods-SwipeCellKit-Exemple.debug.xcconfig"; sourceTree = "<group>"; };
 		B8403941399B802100414BF9 /* Pods-SwipeCellKit-Exemple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCellKit-Exemple.release.xcconfig"; path = "Target Support Files/Pods-SwipeCellKit-Exemple/Pods-SwipeCellKit-Exemple.release.xcconfig"; sourceTree = "<group>"; };
+		CF60538F25C6FB6D005C341B /* RealmStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStack.swift; sourceTree = "<group>"; };
 		E836861125AE2C9E0087F4DD /* SwipeCellKit-Exemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwipeCellKit-Exemple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E836861425AE2C9E0087F4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E836861625AE2C9E0087F4DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				E836861D25AE2CA00087F4DD /* Assets.xcassets */,
 				E836861F25AE2CA00087F4DD /* LaunchScreen.storyboard */,
 				E836862225AE2CA00087F4DD /* Info.plist */,
+				CF60538F25C6FB6D005C341B /* RealmStack.swift */,
 			);
 			path = "SwipeCellKit-Exemple";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				E836861925AE2C9E0087F4DD /* FirstViewController.swift in Sources */,
 				E836861525AE2C9E0087F4DD /* AppDelegate.swift in Sources */,
 				E8EB2EA625B6122D00107EBF /* SecondViewController.swift in Sources */,
+				CF60539025C6FB6D005C341B /* RealmStack.swift in Sources */,
 				E836861725AE2C9E0087F4DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
 				INFOPLIST_FILE = "SwipeCellKit-Exemple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
 				INFOPLIST_FILE = "SwipeCellKit-Exemple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
